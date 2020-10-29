@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CameraReviewContentProviderService", "CameraReviewContentProviderService\CameraReviewContentProviderService.csproj", "{CA1B5155-D422-47FB-8E46-D6311AA1DC2B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CameraReviewUnitTests", "CameraReviewUnitTests\CameraReviewUnitTests.csproj", "{96BE5542-9854-41A4-A985-BF94D9863D42}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReviewPublisherFunctionApp", "ReviewPublisherFunctionApp\ReviewPublisherFunctionApp.csproj", "{33EBF852-D010-460B-A170-78EEB9FADBB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{22AB3004-E46F-4EEE-9ED0-A0E37FBA2516}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		definicion_del_proyecto.md = definicion_del_proyecto.md
+		design_doc_template.md = design_doc_template.md
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solucion del profesor", "Solucion del profesor", "{A8F080BE-749F-4D8E-A886-51558D5E1669}"
+	ProjectSection(SolutionItems) = preProject
+		CameraReviewsBackend_design_doc.md = CameraReviewsBackend_design_doc.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CameraReview", "CameraReview\CameraReview.csproj", "{9464A3E6-421C-4544-B0A7-6029BA7E497B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Articulos", "Articulos", "{F25959CA-3F19-4D33-8122-474BF555120E}"
+	ProjectSection(SolutionItems) = preProject
+		Referencia-Exponential-Backoff.md = Referencia-Exponential-Backoff.md
+		Test-driven-development.md = Test-driven-development.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraReviewReader", "CameraReviewReader\CameraReviewReader.csproj", "{9BF89DE7-4ACF-4207-92EC-B15ECAAE9014}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA1B5155-D422-47FB-8E46-D6311AA1DC2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA1B5155-D422-47FB-8E46-D6311AA1DC2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA1B5155-D422-47FB-8E46-D6311AA1DC2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA1B5155-D422-47FB-8E46-D6311AA1DC2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96BE5542-9854-41A4-A985-BF94D9863D42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96BE5542-9854-41A4-A985-BF94D9863D42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96BE5542-9854-41A4-A985-BF94D9863D42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96BE5542-9854-41A4-A985-BF94D9863D42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33EBF852-D010-460B-A170-78EEB9FADBB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33EBF852-D010-460B-A170-78EEB9FADBB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33EBF852-D010-460B-A170-78EEB9FADBB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33EBF852-D010-460B-A170-78EEB9FADBB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9464A3E6-421C-4544-B0A7-6029BA7E497B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9464A3E6-421C-4544-B0A7-6029BA7E497B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9464A3E6-421C-4544-B0A7-6029BA7E497B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9464A3E6-421C-4544-B0A7-6029BA7E497B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BF89DE7-4ACF-4207-92EC-B15ECAAE9014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BF89DE7-4ACF-4207-92EC-B15ECAAE9014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BF89DE7-4ACF-4207-92EC-B15ECAAE9014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BF89DE7-4ACF-4207-92EC-B15ECAAE9014}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A8F080BE-749F-4D8E-A886-51558D5E1669} = {22AB3004-E46F-4EEE-9ED0-A0E37FBA2516}
+		{F25959CA-3F19-4D33-8122-474BF555120E} = {22AB3004-E46F-4EEE-9ED0-A0E37FBA2516}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36353EC5-406E-4D00-9A51-AE2DA53ABFE8}
+	EndGlobalSection
+EndGlobal
